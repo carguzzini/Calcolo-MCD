@@ -58,7 +58,7 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
- p {
+ 	p {
             text-align: center;
             color: #333;
         }
@@ -68,12 +68,14 @@
     <h2>Calcolatore MCD</h2>
     <form id="mcdForm">
         <label for="numero1">Inserisci il primo numero:</label>
-        <input type="number" id="numero1" name="numero1">
+        <input type="number" id="numero1" name="numero1" value="11">
         <label for="numero2">Inserisci il secondo numero:</label>
-        <input type="number" id="numero2" name="numero2">
+        <input type="number" id="numero2" name="numero2" value="22">
         <button type="button" onclick="calcolaMCD()">Calcola MCD</button>
+	<p>&copy Djpedro_r1.0</p>
     </form>
     <div id="divisioni"></div>
+    
 
     <script>
         function calcolaMCD() {
@@ -107,6 +109,6 @@
             return a;
         }
     </script>
-<p>&copy Djpedro_r1.0</p>
+
 </body>
 </html>
